@@ -4,4 +4,5 @@ langchain
 langchain-community
 langchain-google-genai
 faiss-cpu
-pypdf
+pypdf[full]==3.20.0
+
