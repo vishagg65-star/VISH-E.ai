@@ -75,7 +75,7 @@ def set_background_image(image_path):
     )
 
 # Example background
-set_background_image("E:/Langchain_LangGraph/RAG_Use/vishai.png")
+set_background_image("vishai.png")
 
 st.title("💬 VISH-E.ai")
 st.write("Hi! I'm **VISH-E.ai**, your friendly AI assistant. Ask me anything, or upload PDFs to make my answers even smarter!")
@@ -195,3 +195,4 @@ if uploaded_files:
     )
 
     st.success("✅ Done! I'm now smarter and ready to chat using your PDFs.")
+
