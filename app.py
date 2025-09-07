@@ -139,7 +139,7 @@ if user_query:
             else:
                 # No PDFs uploaded, use plain LLM
                 answer = llm.invoke(user_query).content
-                source_info = "⚠️ Note: This information is from my general knowledge."
+                #source_info = "⚠️ Note: This information is from my general knowledge."
         except Exception as e:
             # Safety fallback
             answer = llm.invoke(user_query).content
@@ -195,4 +195,5 @@ if uploaded_files:
     )
 
     st.success("✅ Done! I'm now smarter and ready to chat using your PDFs.")
+
 
